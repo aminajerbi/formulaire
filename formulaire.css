@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+}
+body{
+    height: 100vh;
+      display: flex;
+      align-items:center;
+      justify-content: center;
+
+
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70%;
+    width: 20%;
+    margin-right:15%;
+
+}
+#titre{
+    font-family: 'Akaya Telivigala', cursive;
+    text-align: center; 
+  
+}
+#texte{
+    background-color: slategray;
+}
+.bou{
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+body{
+    margin: 0%;
+    background-color: turquoise;
+    display: flex;
+}
+.colonne{
+    background-color:lightgreen;
+    padding: 8px;
+}
+.para-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70%;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.bou2{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    page-break-inside: 15%;
+
+}
+#subscribeNews{
+    height: 50px;
+    width: 50px;
+}
+#robot{
+    display: flex;
+    justify-content: space-around;
+}
